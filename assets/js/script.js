@@ -51,6 +51,8 @@ function checkAnswer() {
       `Awwww.... you answered ${userAnswer}. The correct answer was ${calculatedAnswer[0]}!`
     );
   }
+
+  runGame(calculatedAnswer[1]);
 }
 
 /**
